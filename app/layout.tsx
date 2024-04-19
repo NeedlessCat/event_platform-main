@@ -12,9 +12,9 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: 'GatherGurus',
-  description: 'Evently is a platform for event management.',
+  description: 'GatherGurus is a platform for event management.',
   icons: {
-    icon: '/assets/images/logo.svg'
+    icon: '/assets/images/metalogo.png'
   }
 }
 
@@ -25,7 +25,7 @@ export default function RootLayout({
 }) {
   return (
     <ClerkProvider>
-      <html lang="en">
+      <html lang="en" className='bg-gradient-to-r from-blue-600 via-blue-100 to-orange-700'>
         <body className={poppins.variable}>{children}</body>
       </html>
     </ClerkProvider>

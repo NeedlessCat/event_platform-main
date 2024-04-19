@@ -7,13 +7,15 @@ import MobileNav from "./MobileNav"
 
 const Header = () => {
   return (
-    <header className="w-full border-b">
+    <header className="w-full header">
       <div className="wrapper flex items-center justify-between">
-        <Link href="/" className="w-36">
-          <Image 
-            src="/assets/images/logo.svg" width={128} height={38}
-            alt="Evently logo" 
-          />
+        <Link href="/" className="w-50">
+            <Image 
+              src="/assets/images/logo1.png" 
+              alt="GatherGurus logo"
+              width={290}
+              height={200}
+            />
         </Link>
 
         <SignedIn>
